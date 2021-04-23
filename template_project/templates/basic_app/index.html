@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load my_extras %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main</title>
+  </head>
+  <body>
+    <h1>This is the Main Page!</h1>
+    <h2>{{ name|cut_word:"Hello" }}</h2>
+    <h2> {{ number|add:"99" }} </h2>
+  </body>
+</html>
